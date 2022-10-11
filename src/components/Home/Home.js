@@ -11,7 +11,7 @@ function Home() {
         <p className='text-muted mb-4'>QuizCode are programming assessment tools used to objectively evaluate programming skills across parameters such as problem-solving, coding aptitude, and de-bugging.</p>
         <div>
           <button className="btn btn-warning">
-            <Link className="text-decoration-none text-white" to="/tests">
+            <Link className="text-decoration-none text-white" to="/quizs">
               Start Practice
             </Link>
           </button>
