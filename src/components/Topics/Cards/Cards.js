@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 function Cards({topic}) {
-  console.log(topic)
-    const {name, logo, total, id} = topic;
+    const {id, name, logo, total} = topic;
     return (
       <div className="col-lg-3 col-md-6 col-sm-12">
       <div className="m-2">
@@ -16,7 +15,7 @@ function Cards({topic}) {
             <Card.Text >
               <small className="fw-bolder text-white">Quiz: {total}</small>
             </Card.Text>
-            <Link to={`/topics/${id}`} className='btn px-5 mb-2 mt-0 btn-info'>Start</Link>
+            <Link to={`/topic/${id}`} className='btn px-5 mb-2 mt-0 btn-info'>Start</Link>
           </Card.Body>
         </Card>
       </div>
