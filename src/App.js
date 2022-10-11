@@ -4,6 +4,7 @@ import Main from "./layouts/Main"
 import Home from './components/Home/Home';
 import Topics from './components/Topics/Topics';
 import Quizs from './components/Topics/Cards/Quizs/Quiz';
+import Errorpage from './components/Errorpage/Errorpage';
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
           element: <Quizs></Quizs>
         }
       ],
+    },
+    {
+      path:"*",
+      element:<Errorpage></Errorpage>
     }
   ]);
   return (
