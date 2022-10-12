@@ -8,7 +8,7 @@ function BasicExample() {
     <Navbar bg="dark" expand="lg" variant="dark">
       <Container className='position-relative'>
         <Navbar.Brand>
-        <Link className='text-decoration-none fs-3 text-warning' to ="/">QuizCode</Link>
+        <Link className='text-decoration-none fs-3 text-warning' to ="/">CodeQuiz</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

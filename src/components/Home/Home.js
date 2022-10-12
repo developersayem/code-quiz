@@ -11,8 +11,8 @@ function Home() {
         <img  src={Hero} className="img-fluid rounded-4 shadow-lg" alt="" />
       </div>
       <div className="mt-5 col-md-6">
-        <h1 className='mb-3'>What are QuizCode?</h1>
-        <p className='text-muted mb-4'>QuizCode are programming assessment tools used to objectively evaluate programming skills across parameters such as problem-solving, coding aptitude, and de-bugging.</p>
+        <h1 className='mb-3'>What are CodeQuiz?</h1>
+        <p className='text-muted mb-4'>CodeQuiz are programming assessment tools used to objectively evaluate programming skills across parameters such as problem-solving, coding aptitude, and de-bugging.</p>
         <div>
           <button className="btn btn-warning">
             <Link className="text-decoration-none text-white" to="/topics">
