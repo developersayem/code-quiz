@@ -5,8 +5,12 @@ import Hero from "../../Images/Hero.jpg";
 
 function Home() {
     return (
-        <div className="d-md-flex m-5 pt-md-5">
-      <div className="w-50 d-flex flex-column align-content-center justify-content-center me-5 mt-5">
+        <div className="d-md-grid container mt-5">
+        <div className="row">
+         <div className="mt-5 col-md-6">
+        <img  src={Hero} className="img-fluid rounded-4 shadow-lg" alt="" />
+      </div>
+      <div className="mt-5 col-md-6">
         <h1 className='mb-3'>What are QuizCode?</h1>
         <p className='text-muted mb-4'>QuizCode are programming assessment tools used to objectively evaluate programming skills across parameters such as problem-solving, coding aptitude, and de-bugging.</p>
         <div>
@@ -17,8 +21,6 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="w-50 mt-5">
-        <img src={Hero} className="img-fluid rounded-4 shadow-lg" alt="" />
       </div>
     </div>
     )

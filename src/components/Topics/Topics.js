@@ -7,7 +7,7 @@ function Topics() {
     const topics = leaderData.data;
     return (
         <div className='container grid'>
-        <div className='row align-items-center mt-5 pt-5'>
+        <div className='row align-items-center p-5'>
             {
                 topics.map(topic => <Cards
                     key={topic.id}
