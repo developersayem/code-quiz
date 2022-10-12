@@ -1,6 +1,6 @@
 # All usefull Links 
-## Github rep links:https: //github.com/programming-hero-web-course2/b6-quiz-crackerz-devsayemmolla
-## Live site  links:
+## Github rep links: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-devsayemmolla
+## Live site  links: https://vocal-cendol-c28073.netlify.app/
 # What are CodeQuiz?
 
 CodeQuiz are programming assessment tools used to objectively evaluate programming skills across parameters such as problem-solving, coding aptitude, and de-bugging.
